@@ -20,7 +20,7 @@ public class VolumePackage implements ReactPackage {
 		return modules;
 	}
 
-	@Override
+	//Remove Override as of 47.1 this has been removed from ReactPackage
 	public List<Class<? extends JavaScriptModule>> createJSModules() {
 		return Collections.emptyList();
 	}
